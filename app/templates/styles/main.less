@@ -1,0 +1,58 @@
+//import config
+@import 'vendor/config.less'; 
+
+//------------------------------------------------------------
+// Your code here
+// -----------------------------------------------------------
+
+body {
+  font-family: @font1;
+  font-weight: 300;
+  color: @textcolor;  
+  font-size: @basefont;
+}
+
+
+.main-wrapper {
+  background: #fff;
+}
+
+
+
+
+
+
+//------------------------------------------------------------
+// Presets, just for reference
+// -----------------------------------------------------------
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-sm-min) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) {  }
+
+//We occasionally expand on these media queries to include a max-width to limit CSS to a narrower set of devices.
+@media (max-width: @screen-xs-max) {  }
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {  }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {  }
+@media (min-width: @screen-lg-min) {  }
+
+//mobile
+@media(@xs) { }
+@media (max-width: @screen-sm-min) {}
+//tablet
+@media(@sm) {}
+@media (max-width: @screen-md-min) {}
+//medium
+@media(@md) {}
+@media (min-width: @screen-md-min) {}
+//large
+@media(@lg) {}
+
+

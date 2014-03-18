@@ -1,0 +1,7 @@
+language: node_js
+node_js:
+  - '0.10'
+before_install:
+  - currentfolder=${PWD##*/}
+  - if [ "$currentfolder" != 'generator-dunique-bootstrap' ]; then cd .. && eval "mv $currentfolder generator-dunique-bootstrap" && cd generator-dunique-bootstrap; fi
+
